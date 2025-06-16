@@ -41,7 +41,7 @@ export default function () {
 
     const res = http.post(url, payload, { headers: postHeaders });
 
-    check(res, {
-        'status is 201': (r) => r.status === 201,
-    });
+check(res, {
+    'status is 201': (r) => r.status === 201,
+});
 }
