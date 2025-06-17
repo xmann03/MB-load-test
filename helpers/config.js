@@ -15,11 +15,16 @@ export const postHeaders = {
 };
 
 export const testOptions = {
+    cloud: {
+    projectID: '3777582',
+    // Test runs with the same name groups test runs together
+    name: 'get-directories'
+  },
     // stages: [
     //     { duration: '10s', target:   50 },
     //     { duration: '10s', target:   50 },
     //     { duration: '10s', target: 0 }
     // ],
-    vus: 3,
-    duration: '5s',
+    vus: 100,
+    duration: '1m',
 };
