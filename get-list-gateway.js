@@ -1,5 +1,5 @@
 import http from "k6/http";
-import { check, sleep } from "k6";
+import { check } from "k6";
 import { baseUrl1, postHeaders, testOptions } from './helpers/config.js';
 
 export let options = testOptions;
@@ -21,6 +21,4 @@ export default function () {
     check(res, {
         "status is 200": (r) => r.status === 200,
     });
-
-    sleep(1);
 }

@@ -154,7 +154,7 @@ export default function () {
         slug: "3-series"
       },
       paint_condition: ["spot"],
-      price: 10000,
+      price: 10030,
       regions_id: "c8af1b1f-244d-4a97-a821-239a4532fa9a",
       services_id: "12a515de-5b7a-447a-9a4d-e1c26343cf69",
       services_id_data: {
